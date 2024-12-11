@@ -1,0 +1,14 @@
+# Read more about how to configurate this file:
+# https://docs.docker.com/build/concepts/context/#dockerignore-files
+
+node_modules
+.git
+.vscode
+README.md
+.gitignore
+.env
+.env.example
+.editorconfig
+Dockerfile*
+docker-compose*
+.dockerignore

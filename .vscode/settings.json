@@ -1,0 +1,12 @@
+{
+  // Formatting and coding standards
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  // General file exclusions
+  "files.exclude": {
+    "**/node_modules": true,
+    "**/bun.lockb": true
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "editorconfig.editorconfig",
+    "esbenp.prettier-vscode",
+    "mikestead.dotenv",
+    "vivaxy.vscode-conventional-commits",
+    "aaron-bond.better-comments",
+    "amodio.toggle-excluded-files"
+  ]
+}
