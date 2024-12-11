@@ -5,11 +5,13 @@
   "scripts": {
     "dev": "bun --hot run ./src/index.ts"
   },
-  "peerDependencies": {
-    "typescript": "^5.0.0"
+  "dependencies": {
+    "bun": "^1.1.38"
   },
-  "dependencies": {},
   "devDependencies": {
     "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.7.2"
   }
 }
