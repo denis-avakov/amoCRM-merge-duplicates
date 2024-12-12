@@ -20,13 +20,12 @@ app.get("/", async (context) => {
 });
 
 app.post("/webhook-trigger", async (context, next) => {
-  const formData = await context.req.formData();
-  const requestId = context.get("requestId");
-
-  console.log(`[${requestId}]`, formData);
-
   try {
+    const requestId = context.get("requestId");
+    const formData = await context.req.formData();
     const formDataFields = parseFormData(formData);
+
+    console.log(`[${requestId}]`, formDataFields);
 
     // early exit if it's trigger not from telegram integration
     if (!formDataFields.sourceUid?.includes("amojo:telegram")) {
