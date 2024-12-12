@@ -6,9 +6,12 @@
     "dev": "bun --hot run ./src/index.ts"
   },
   "dependencies": {
-    "bun": "^1.1.38"
+    "amocrm-js": "^3.6.0",
+    "es-toolkit": "^1.29.0",
+    "hono": "^4.6.13"
   },
   "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
     "@types/bun": "latest"
   },
   "peerDependencies": {
