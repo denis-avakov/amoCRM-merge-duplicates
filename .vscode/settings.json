@@ -2,7 +2,11 @@
   // Formatting and coding standards
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.defaultFormatter": "biomejs.biome",
+  "editor.codeActionsOnSave": {
+    "quickfix.biome": "explicit",
+    "source.organizeImports.biome": "explicit"
+  },
 
   // General file exclusions
   "files.exclude": {
